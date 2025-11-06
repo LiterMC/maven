@@ -1,0 +1,295 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vtil",
+    "module": "Vtil-fabric-1.20.1",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Vtil-fabric-1.20.1-0.2.2.jar",
+          "url": "Vtil-fabric-1.20.1-0.2.2.jar",
+          "size": 532380,
+          "sha512": "aa901a4a07fd8a49deaddc52e3f7c84dd489f003286e86e57563b23626dbfb74578c08ccd53c8d529b8fd50508bfbcadaf7763c215a69fa2b7005a0c9847adbc",
+          "sha256": "d090d0a930aaa53b72a0b415dcdb6d97a5256ced1f38ea4d52f10c38385afa24",
+          "sha1": "71b75e8fc90589d2b159421207d4ccc7df8e8f7f",
+          "md5": "a8ff6019cc99daab2c53de764a9af5a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "fabric",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "Vtil-common-1.20.1",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config",
+          "version": {
+            "requires": "6.4.90"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+fabric"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.0+build.1734-mc1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Vtil-fabric-1.20.1-0.2.2.jar",
+          "url": "Vtil-fabric-1.20.1-0.2.2.jar",
+          "size": 532380,
+          "sha512": "aa901a4a07fd8a49deaddc52e3f7c84dd489f003286e86e57563b23626dbfb74578c08ccd53c8d529b8fd50508bfbcadaf7763c215a69fa2b7005a0c9847adbc",
+          "sha256": "d090d0a930aaa53b72a0b415dcdb6d97a5256ced1f38ea4d52f10c38385afa24",
+          "sha1": "71b75e8fc90589d2b159421207d4ccc7df8e8f7f",
+          "md5": "a8ff6019cc99daab2c53de764a9af5a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "fabric",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Vtil-fabric-1.20.1-0.2.2-sources.jar",
+          "url": "Vtil-fabric-1.20.1-0.2.2-sources.jar",
+          "size": 79457,
+          "sha512": "fb88bc86811d3a8f55911c1d98362834dbb3e9fbbb4f3ded788259aaa68171e86b75bdd400cd4bb26bee68bc2df9400b63ab149844cb0d5db3cfe42c01a75232",
+          "sha256": "02e3fef9435bd6deb0a262b16fba4e5a8e4039e7697cd7d3128e02b72cb969d3",
+          "sha1": "f83c2ee96d8b7cc56cab61c8aa44eede03648509",
+          "md5": "89bfd5af36e4520fe25a0b7c00e1bc72"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "fabric",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.2.2"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-fabric-1.20.1",
+          "version": "0.2.2"
+        }
+      ]
+    }
+  ]
+}
