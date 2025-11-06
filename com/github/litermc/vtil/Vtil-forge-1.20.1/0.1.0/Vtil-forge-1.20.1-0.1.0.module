@@ -1,0 +1,329 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vtil",
+    "module": "Vtil-forge-1.20.1",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "Vtil-forge-1.20.1-0.1.0.jar",
+          "url": "Vtil-forge-1.20.1-0.1.0.jar",
+          "size": 1254351,
+          "sha512": "caa29c415a7a2f7387671973eb6156b772601951f9fca7bae6f5d2cc54d022c5f4917ce13449e2c71140be92a0864468e058f1910f175c4ef551cdc1bbbf924d",
+          "sha256": "7edf6a8e851c7458d8d9c1527dabb670be859e1150ca7beae3d9667d56a92168",
+          "sha1": "1d9991e31ea779fc7cfb52c7d39dfc0571d19a98",
+          "md5": "dd318b35d3b5d6be1bb867ac2ff3cf6a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-forge-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "forge",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-forge-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "thedarkcolour",
+          "module": "kotlinforforge",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api-game",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+forge"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.20.1",
+          "version": {
+            "requires": "6.0.8-289"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.20.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "all"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Vtil-forge-1.20.1-0.1.0.jar",
+          "url": "Vtil-forge-1.20.1-0.1.0.jar",
+          "size": 1254351,
+          "sha512": "caa29c415a7a2f7387671973eb6156b772601951f9fca7bae6f5d2cc54d022c5f4917ce13449e2c71140be92a0864468e058f1910f175c4ef551cdc1bbbf924d",
+          "sha256": "7edf6a8e851c7458d8d9c1527dabb670be859e1150ca7beae3d9667d56a92168",
+          "sha1": "1d9991e31ea779fc7cfb52c7d39dfc0571d19a98",
+          "md5": "dd318b35d3b5d6be1bb867ac2ff3cf6a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-forge-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "forge",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-forge-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Vtil-forge-1.20.1-0.1.0-sources.jar",
+          "url": "Vtil-forge-1.20.1-0.1.0-sources.jar",
+          "size": 79369,
+          "sha512": "650e419906aef3e6469a110a840036a6a0fe8d6f5d2d1fffaebc7444aa7e1f110924f6ee6a8ab6ac74825a5b671f1b4e592caffa3d2113caa2db8ca13a68453c",
+          "sha256": "c4fd26f9a9dc36da12c37dc4068ea16ecb9651f2c2763466bb2ca1d76f2f9e8f",
+          "sha1": "d50cfce7fb1a6389085c999847fa7e9a0355e02a",
+          "md5": "9d8af36f840c8cc22da720fe762b1a99"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-forge-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "forge",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "Vtil-forge-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    }
+  ]
+}
