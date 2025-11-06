@@ -63,11 +63,11 @@
         {
           "name": "Vtil-forge-1.20.1-0.1.0.jar",
           "url": "Vtil-forge-1.20.1-0.1.0.jar",
-          "size": 1254351,
-          "sha512": "caa29c415a7a2f7387671973eb6156b772601951f9fca7bae6f5d2cc54d022c5f4917ce13449e2c71140be92a0864468e058f1910f175c4ef551cdc1bbbf924d",
-          "sha256": "7edf6a8e851c7458d8d9c1527dabb670be859e1150ca7beae3d9667d56a92168",
-          "sha1": "1d9991e31ea779fc7cfb52c7d39dfc0571d19a98",
-          "md5": "dd318b35d3b5d6be1bb867ac2ff3cf6a"
+          "size": 1255223,
+          "sha512": "ecfa9eaaa1281983160b1bea133f9ec4e9c5ad58ef7238a903d9e84230ae159df64fcdfc38b01b97b978775bced101109aae9fa414ddbc1ba8d78ff9616f39f6",
+          "sha256": "d2e188bccc81f5bd9435e4816ad3ad61dba681536712b19608ce655cda051da8",
+          "sha1": "2975a26432db12fb49032196a552e10c726fa51c",
+          "md5": "a3417ae3287b6ee09153b3fe3ab048d1"
         }
       ],
       "capabilities": [
@@ -253,11 +253,11 @@
         {
           "name": "Vtil-forge-1.20.1-0.1.0.jar",
           "url": "Vtil-forge-1.20.1-0.1.0.jar",
-          "size": 1254351,
-          "sha512": "caa29c415a7a2f7387671973eb6156b772601951f9fca7bae6f5d2cc54d022c5f4917ce13449e2c71140be92a0864468e058f1910f175c4ef551cdc1bbbf924d",
-          "sha256": "7edf6a8e851c7458d8d9c1527dabb670be859e1150ca7beae3d9667d56a92168",
-          "sha1": "1d9991e31ea779fc7cfb52c7d39dfc0571d19a98",
-          "md5": "dd318b35d3b5d6be1bb867ac2ff3cf6a"
+          "size": 1255223,
+          "sha512": "ecfa9eaaa1281983160b1bea133f9ec4e9c5ad58ef7238a903d9e84230ae159df64fcdfc38b01b97b978775bced101109aae9fa414ddbc1ba8d78ff9616f39f6",
+          "sha256": "d2e188bccc81f5bd9435e4816ad3ad61dba681536712b19608ce655cda051da8",
+          "sha1": "2975a26432db12fb49032196a552e10c726fa51c",
+          "md5": "a3417ae3287b6ee09153b3fe3ab048d1"
         }
       ],
       "capabilities": [
@@ -295,11 +295,11 @@
         {
           "name": "Vtil-forge-1.20.1-0.1.0-sources.jar",
           "url": "Vtil-forge-1.20.1-0.1.0-sources.jar",
-          "size": 79369,
-          "sha512": "650e419906aef3e6469a110a840036a6a0fe8d6f5d2d1fffaebc7444aa7e1f110924f6ee6a8ab6ac74825a5b671f1b4e592caffa3d2113caa2db8ca13a68453c",
-          "sha256": "c4fd26f9a9dc36da12c37dc4068ea16ecb9651f2c2763466bb2ca1d76f2f9e8f",
-          "sha1": "d50cfce7fb1a6389085c999847fa7e9a0355e02a",
-          "md5": "9d8af36f840c8cc22da720fe762b1a99"
+          "size": 79713,
+          "sha512": "c412be727887dfc80e19eaf2db308b1dfe9ab77a3fe6426a49fe57924658cfdd522d4a598602d06655585686d0ea2a3e955e727201be007212cfe88add61c1fe",
+          "sha256": "59b253431dbbf39aab28dc56b5c4bf7d016e7a792cc767bf0222e38a33915521",
+          "sha1": "63594885ea81e176dbd6aac4ac881580c3a288c1",
+          "md5": "064891bca26e3b5c5928de59c9564942"
         }
       ],
       "capabilities": [
