@@ -1,0 +1,302 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vsplit",
+    "module": "VSplit-fabric-1.20.1",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-fabric-1.20.1-0.1.0.jar",
+          "url": "VSplit-fabric-1.20.1-0.1.0.jar",
+          "size": 492823,
+          "sha512": "3c9faa8048842fc520a57fdb50b700a92bd2ad3598aa54ab31b9990530b1691170db08ef8d71695b33185dd7eb7e3dda4a458350d3f9d74917148995f1a0ec94",
+          "sha256": "b434a0a5d0897c687ade9c0fd07ac63898f6b38fc62e41d01b88e52961f5976d",
+          "sha1": "0098bc550dcdf43ca1ed3729c782e4b7af079620",
+          "md5": "d376a18ed361261d741392c60b314272"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-fabric-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "fabric",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-fabric-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "module": "VSplit-common-1.20.1",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "vtil-forge-1.20.1",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config",
+          "version": {
+            "requires": "6.4.90"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+fabric"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.0+build.1734-mc1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-fabric-1.20.1-0.1.0.jar",
+          "url": "VSplit-fabric-1.20.1-0.1.0.jar",
+          "size": 492823,
+          "sha512": "3c9faa8048842fc520a57fdb50b700a92bd2ad3598aa54ab31b9990530b1691170db08ef8d71695b33185dd7eb7e3dda4a458350d3f9d74917148995f1a0ec94",
+          "sha256": "b434a0a5d0897c687ade9c0fd07ac63898f6b38fc62e41d01b88e52961f5976d",
+          "sha1": "0098bc550dcdf43ca1ed3729c782e4b7af079620",
+          "md5": "d376a18ed361261d741392c60b314272"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-fabric-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "fabric",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-fabric-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VSplit-fabric-1.20.1-0.1.0-sources.jar",
+          "url": "VSplit-fabric-1.20.1-0.1.0-sources.jar",
+          "size": 51193,
+          "sha512": "79d0772dd623a7c6329bea1a3dd0965a1b0ee554e05aa42cfd10b16819a74c6fb00fdf6eca1962af59ac4fd41e5941f44aebe9e32b9a051e60ed39ede65ee428",
+          "sha256": "fb5d28f7e5bcea1481c60187cb90d6abd9ebd70348fecaa7fe0f5683f7ede0b7",
+          "sha1": "2ebdaf7f7ccc7122ec8e16f03fe59ff366f0eb1c",
+          "md5": "280399a1014833479c13f0b1acd0e192"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-fabric-1.20.1",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "fabric",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-fabric-1.20.1",
+          "version": "0.1.0"
+        }
+      ]
+    }
+  ]
+}
