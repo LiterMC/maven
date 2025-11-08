@@ -1,0 +1,274 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vsplit",
+    "module": "VSplit-common-1.20.1",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-common",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-common-1.20.1-0.1.2.jar",
+          "url": "VSplit-common-1.20.1-0.1.2.jar",
+          "size": 144010,
+          "sha512": "861d3b26ffe05692dfabf71359c60cecf1a394420694e75bc8383b69df330498dbffd69c6a8e9faeb39777d677ff37cf9782274acbb9c41fd767e24a05dee10f",
+          "sha256": "f41ffc3b8ac93618d4adf3910f852207ee7e204256b493864c0d27e786ef615c",
+          "sha1": "730c9bd8c59dd45a5f2d47328b5a9b8e72cb3e6a",
+          "md5": "63fdc1dbd999306f18b68883c4fb08c0"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-common-1.20.1",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "common",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-common-1.20.1",
+          "version": "0.1.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api-game",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-common",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "vtil-common-1.20.1",
+          "version": {
+            "requires": "0.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-common-1.20.1-0.1.2.jar",
+          "url": "VSplit-common-1.20.1-0.1.2.jar",
+          "size": 144010,
+          "sha512": "861d3b26ffe05692dfabf71359c60cecf1a394420694e75bc8383b69df330498dbffd69c6a8e9faeb39777d677ff37cf9782274acbb9c41fd767e24a05dee10f",
+          "sha256": "f41ffc3b8ac93618d4adf3910f852207ee7e204256b493864c0d27e786ef615c",
+          "sha1": "730c9bd8c59dd45a5f2d47328b5a9b8e72cb3e6a",
+          "md5": "63fdc1dbd999306f18b68883c4fb08c0"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-common-1.20.1",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "common",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-common-1.20.1",
+          "version": "0.1.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VSplit-common-1.20.1-0.1.2-sources.jar",
+          "url": "VSplit-common-1.20.1-0.1.2-sources.jar",
+          "size": 118916,
+          "sha512": "58f631192753d5c59082ad913273e124d942766b45027c530f7f346ef85c91b21e767f5bd3fe38516b410fa3441f3658f2e99338dfb5ad0fcab072f785e40e50",
+          "sha256": "9590dee77da0b4fa2324d320d11585d7e85dca97c7b391acf6ee632b78ca0f6b",
+          "sha1": "7c6ddde0676f3d0f3655770e2de869f5fa7ae365",
+          "md5": "2c004918c1d95887d5b4eb944b55f7ae"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-common-1.20.1",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "common",
+          "version": "0.1.2"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-common-1.20.1",
+          "version": "0.1.2"
+        }
+      ]
+    }
+  ]
+}
