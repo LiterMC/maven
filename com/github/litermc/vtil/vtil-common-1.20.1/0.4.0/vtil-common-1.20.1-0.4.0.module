@@ -1,0 +1,252 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vtil",
+    "module": "vtil-common-1.20.1",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-common",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vtil-common-1.20.1-0.4.0.jar",
+          "url": "vtil-common-1.20.1-0.4.0.jar",
+          "size": 151077,
+          "sha512": "80560135b75ce01bb87c464aa6798ad4550c18b856bfc7095015d659511fc123a20d4efc88edd10c8fc9120201013f47a46438244c36d48291c2d2bec8ce0a98",
+          "sha256": "e5cd87cd4c5ecd1ae1682cd5916bf2c58b234a444fb097946ca6fe764433825d",
+          "sha1": "dd7e2913c3a738416d9b872187cb085e4d5b9108",
+          "md5": "6ed7bcc4970514542d3142c530375ad9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-common-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "common",
+          "version": "0.4.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api-game",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+cf6990a85d"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-common",
+          "version": {
+            "requires": "2.3.0-beta.11"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vtil-common-1.20.1-0.4.0.jar",
+          "url": "vtil-common-1.20.1-0.4.0.jar",
+          "size": 151077,
+          "sha512": "80560135b75ce01bb87c464aa6798ad4550c18b856bfc7095015d659511fc123a20d4efc88edd10c8fc9120201013f47a46438244c36d48291c2d2bec8ce0a98",
+          "sha256": "e5cd87cd4c5ecd1ae1682cd5916bf2c58b234a444fb097946ca6fe764433825d",
+          "sha1": "dd7e2913c3a738416d9b872187cb085e4d5b9108",
+          "md5": "6ed7bcc4970514542d3142c530375ad9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-common-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "common",
+          "version": "0.4.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vtil-common-1.20.1-0.4.0-sources.jar",
+          "url": "vtil-common-1.20.1-0.4.0-sources.jar",
+          "size": 88688,
+          "sha512": "3b561347c092ee2420b2b424dbc7a4cd3cf1fd81ca7fd936b22126a1e46bde11475855f0b83f01175b46d731324f284a0f5ba9a3abe8128101edb786811e7cc1",
+          "sha256": "b547ac9508edbbc542844a9a1d8f4a86b5b89d92c322d5d39f81adaef5c26996",
+          "sha1": "dd7f08400bb934aad281f3d597b0f75d9089fe26",
+          "md5": "fba1355c145db741045b75253151339a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "vtil-common-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "name": "common",
+          "version": "0.4.0"
+        }
+      ]
+    }
+  ]
+}
