@@ -50,11 +50,11 @@
         {
           "name": "VSplit-common-1.20.1-0.2.0.jar",
           "url": "VSplit-common-1.20.1-0.2.0.jar",
-          "size": 168092,
-          "sha512": "b26a797b723d2702ce0a9af838931c27519541390d880e74ee5d3eaea3a2ddd2003bd915a35efd6da5aa7bb14fe28a25e2f46248e0810150cd2286d6f94c67d7",
-          "sha256": "264953d614696c4737f5ccfc926799eb95827e5f546fbacdf7d9bf80a4337a68",
-          "sha1": "b36c81ecaea67e9d386f5f9767aa41baf46d9085",
-          "md5": "54e89bc3ff80950a708fa4bb90b31106"
+          "size": 168091,
+          "sha512": "f1a5616e9f090e4ea643f4674f234ef8589b6f422b08105a428e539db695ff5ead863ffde1edc4adb5b580414428cc271a3daf2994a66ff5e937a6beeb2b2d42",
+          "sha256": "bc705b7265cf3bd2b16adee94da9bde8bc49b9418f8b30ab8df12b7b6a1a2412",
+          "sha1": "a873568905d5474654a3cf0c33a702bb523de508",
+          "md5": "b97ee95a1fb1825c680dadeba17b9bbe"
         }
       ],
       "capabilities": [
@@ -198,11 +198,11 @@
         {
           "name": "VSplit-common-1.20.1-0.2.0.jar",
           "url": "VSplit-common-1.20.1-0.2.0.jar",
-          "size": 168092,
-          "sha512": "b26a797b723d2702ce0a9af838931c27519541390d880e74ee5d3eaea3a2ddd2003bd915a35efd6da5aa7bb14fe28a25e2f46248e0810150cd2286d6f94c67d7",
-          "sha256": "264953d614696c4737f5ccfc926799eb95827e5f546fbacdf7d9bf80a4337a68",
-          "sha1": "b36c81ecaea67e9d386f5f9767aa41baf46d9085",
-          "md5": "54e89bc3ff80950a708fa4bb90b31106"
+          "size": 168091,
+          "sha512": "f1a5616e9f090e4ea643f4674f234ef8589b6f422b08105a428e539db695ff5ead863ffde1edc4adb5b580414428cc271a3daf2994a66ff5e937a6beeb2b2d42",
+          "sha256": "bc705b7265cf3bd2b16adee94da9bde8bc49b9418f8b30ab8df12b7b6a1a2412",
+          "sha1": "a873568905d5474654a3cf0c33a702bb523de508",
+          "md5": "b97ee95a1fb1825c680dadeba17b9bbe"
         }
       ],
       "capabilities": [
@@ -240,11 +240,11 @@
         {
           "name": "VSplit-common-1.20.1-0.2.0-sources.jar",
           "url": "VSplit-common-1.20.1-0.2.0-sources.jar",
-          "size": 131035,
-          "sha512": "a58737c6d620b83bb0d0b258745bd1ddef1c54a3dac247ca94c0cc9ef49815317002ece1e644c743956086d9b7eddd4a57308b5d551ac5e1f3f8577a819da694",
-          "sha256": "7447bbcd7b8dcbe91d84ad0cebdf22cd3017db7026aa1385b831bc276b83d152",
-          "sha1": "f51b46b0c431e5c1ed826bd2a3878e28df8f1d47",
-          "md5": "1d0c6949c6299a11f5e8827fd759cdae"
+          "size": 131032,
+          "sha512": "c9ba185c51263da3e65dedd6041294856bc4c46fb1a02764f506494ef39b7b528048b8810917c4f1082e0a20d56cce09bf2f930f601f7daf3ff52e108d875186",
+          "sha256": "71abf5cb0be4d146c50774298a4b1843b719bdbe89656376a2a6724c6d31a853",
+          "sha1": "6eb8a5fd1e97af803b570d8efdd2528bf78ca404",
+          "md5": "bf02bee2071a70ae66c594b69a96619e"
         }
       ],
       "capabilities": [

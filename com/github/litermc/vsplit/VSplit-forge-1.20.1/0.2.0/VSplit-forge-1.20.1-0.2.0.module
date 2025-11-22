@@ -56,11 +56,11 @@
         {
           "name": "VSplit-forge-1.20.1-0.2.0.jar",
           "url": "VSplit-forge-1.20.1-0.2.0.jar",
-          "size": 1586247,
-          "sha512": "13efaa1239302d54fd14a80c449199b7e45302be8f72b9179c395e9116f0cfa11ec0e34504a0f50872db899cbb0b0c676aa591c46606191aa5b14172e804df62",
-          "sha256": "9974940e35a1d974fc43c44b7cac5422982d91493e8917d384f37f74bf9f5a88",
-          "sha1": "e8de6f096def4b4e35b1d71fba2108f5da53a7b1",
-          "md5": "2ccbece79223db18ec2eca62baabcec2"
+          "size": 1586246,
+          "sha512": "6ccd125fc18bea5c7ee2c0c27cbe1c186a922af56c14e123fec9d5e9b3f3281ee14ff3d91ba0c3aae1e6025f8b7d231dc1f0a55346ae8c9854bbac2d57cdc360",
+          "sha256": "809a2c98555bf950dfbdfbfff5af6ca14f863b8ce320810fb01cc3194a5363d2",
+          "sha1": "fb5e4efe097b8c57f0a191615aea91f3de3b588a",
+          "md5": "f7798c845817b33a79664bf1f19ecf91"
         }
       ],
       "capabilities": [
@@ -252,11 +252,11 @@
         {
           "name": "VSplit-forge-1.20.1-0.2.0.jar",
           "url": "VSplit-forge-1.20.1-0.2.0.jar",
-          "size": 1586247,
-          "sha512": "13efaa1239302d54fd14a80c449199b7e45302be8f72b9179c395e9116f0cfa11ec0e34504a0f50872db899cbb0b0c676aa591c46606191aa5b14172e804df62",
-          "sha256": "9974940e35a1d974fc43c44b7cac5422982d91493e8917d384f37f74bf9f5a88",
-          "sha1": "e8de6f096def4b4e35b1d71fba2108f5da53a7b1",
-          "md5": "2ccbece79223db18ec2eca62baabcec2"
+          "size": 1586246,
+          "sha512": "6ccd125fc18bea5c7ee2c0c27cbe1c186a922af56c14e123fec9d5e9b3f3281ee14ff3d91ba0c3aae1e6025f8b7d231dc1f0a55346ae8c9854bbac2d57cdc360",
+          "sha256": "809a2c98555bf950dfbdfbfff5af6ca14f863b8ce320810fb01cc3194a5363d2",
+          "sha1": "fb5e4efe097b8c57f0a191615aea91f3de3b588a",
+          "md5": "f7798c845817b33a79664bf1f19ecf91"
         }
       ],
       "capabilities": [
@@ -294,11 +294,11 @@
         {
           "name": "VSplit-forge-1.20.1-0.2.0-sources.jar",
           "url": "VSplit-forge-1.20.1-0.2.0-sources.jar",
-          "size": 141401,
-          "sha512": "d934e01a0b56bcb6ad85d602a548eba2cbbb12665ebcf5542990d29ae344d61b5ab4d459057ec482c4a75d22f812511341935d6928250997c1a5c125411523fa",
-          "sha256": "08b74829a2a606b3fbefd8e6f0e91cabaf9c40a0e650c74bded7c19b953e546c",
-          "sha1": "a6e1091aaecf77443ab4294caa91370c26b5a551",
-          "md5": "0df148a188126f77a943e0b5e9050a9f"
+          "size": 141399,
+          "sha512": "02e78484656967cbf6e022bea139d6ec776460d88374fe68dfc9a751e3594651246cbfbbb9c0295affc73de596faa974de97ad2297cf9bada184d6bff1a9aaa0",
+          "sha256": "081d74e401e9888a86c40304ffa96902300112a8480fe8f67d7b5f41b4d27362",
+          "sha1": "ae0550b6b6ac90ec32e3b7fbeabf81a387e34224",
+          "md5": "8bd2f1f4b771e59cd274387318a585ff"
         }
       ],
       "capabilities": [

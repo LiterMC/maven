@@ -50,11 +50,11 @@
         {
           "name": "VSplit-fabric-1.20.1-0.2.0.jar",
           "url": "VSplit-fabric-1.20.1-0.2.0.jar",
-          "size": 1147104,
-          "sha512": "1a4184a113b7440c8d77e830b094ca0f16677a77b2e9186ed40106a7a9e1f186f022622a16f0ab6c1f2648fe64b49677512054453428d17db417c033d2e4d389",
-          "sha256": "c61901773cc266f88e3613a52c226b8237ff436f5f045dc57bbd0e75e23faed8",
-          "sha1": "ae372a736972d6ff89f40c8d189c699dab92fd78",
-          "md5": "543e99e3fbdada4650513166f8924419"
+          "size": 1147103,
+          "sha512": "8f3e5322b1c08b718349623ca65b3a23fbbc2129f7a43098f1fccc0b18c581a0ed468fe983e2b02a8c3128f8b8ecca542e66fee22888a7a412e2fb9d8414dd6f",
+          "sha256": "d2d1d0a6eee41db09d928ce558dc08d3fb73590aff89ae820db2cea0497a271e",
+          "sha1": "249bb903dacc8904d9f0c60fe38b2b83ea670471",
+          "md5": "fde78515a97a36b7fcf24f5e4da0409e"
         }
       ],
       "capabilities": [
@@ -232,11 +232,11 @@
         {
           "name": "VSplit-fabric-1.20.1-0.2.0.jar",
           "url": "VSplit-fabric-1.20.1-0.2.0.jar",
-          "size": 1147104,
-          "sha512": "1a4184a113b7440c8d77e830b094ca0f16677a77b2e9186ed40106a7a9e1f186f022622a16f0ab6c1f2648fe64b49677512054453428d17db417c033d2e4d389",
-          "sha256": "c61901773cc266f88e3613a52c226b8237ff436f5f045dc57bbd0e75e23faed8",
-          "sha1": "ae372a736972d6ff89f40c8d189c699dab92fd78",
-          "md5": "543e99e3fbdada4650513166f8924419"
+          "size": 1147103,
+          "sha512": "8f3e5322b1c08b718349623ca65b3a23fbbc2129f7a43098f1fccc0b18c581a0ed468fe983e2b02a8c3128f8b8ecca542e66fee22888a7a412e2fb9d8414dd6f",
+          "sha256": "d2d1d0a6eee41db09d928ce558dc08d3fb73590aff89ae820db2cea0497a271e",
+          "sha1": "249bb903dacc8904d9f0c60fe38b2b83ea670471",
+          "md5": "fde78515a97a36b7fcf24f5e4da0409e"
         }
       ],
       "capabilities": [
@@ -274,11 +274,11 @@
         {
           "name": "VSplit-fabric-1.20.1-0.2.0-sources.jar",
           "url": "VSplit-fabric-1.20.1-0.2.0-sources.jar",
-          "size": 141294,
-          "sha512": "d68112a8ef04a8b497b63fe5ef4b8cda4870b24131c650164244b15d7ca46e244d7b3ab54f16c89a5fb7c165951adb202c5c6eb650235e9b07093bf2f0379f60",
-          "sha256": "5f8611d3a0019bfed3cc87f533f37d1c3b4c99f48e271d80d84b8a262cd2fe19",
-          "sha1": "856981fc917a45a64d5b4d1d12ee0a82b8e7ab82",
-          "md5": "ff118b7b13630df332482358adc427c6"
+          "size": 141291,
+          "sha512": "96558d752c9a996b6502f4a2bca2b903631d9be15359ec73463c834a9917747bca770949854322cc41c7daac3a6a1ec2ee755b570d0b7f74a3898e9e30147d4e",
+          "sha256": "627ee7d6d9dec8ce941c8d52b44acab9b44c617443bc98ca331e6f12489a1fa3",
+          "sha1": "b3a5e3039e3e8528dcf9599859f3ebabcfb29a7b",
+          "md5": "5933fdbb0ce0e045da0cf5cfb36ecaf9"
         }
       ],
       "capabilities": [
