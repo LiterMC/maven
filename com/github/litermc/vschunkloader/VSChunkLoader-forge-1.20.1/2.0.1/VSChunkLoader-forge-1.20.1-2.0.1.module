@@ -1,0 +1,313 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vschunkloader",
+    "module": "VSChunkLoader-forge-1.20.1",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.4.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VSChunkLoader-forge-1.20.1-2.0.1.jar",
+          "url": "VSChunkLoader-forge-1.20.1-2.0.1.jar",
+          "size": 1633870,
+          "sha512": "b8891713cbe981b50b5ee44410de32ff5ee2383595a591283fe9f86550dd2942475d783fbeeb146a08eae6a3e4cd6292c2c2899c69795a9c9362a2939dc894ba",
+          "sha256": "70540e87ab522c9ec28593cef6a13f86bbc163ea2d5b84206f19d3088f71422a",
+          "sha1": "8d3b8c41ab0366e55d2f2874fc96ce9706b2cd7a",
+          "md5": "f11d943ad9b82f865fc86d66ff73e33b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "forge",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-forge-1.20.1",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-forge-1.20.1",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "thedarkcolour",
+          "module": "kotlinforforge",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+3d898dfd55"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+3d898dfd55"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "internal",
+          "version": {
+            "requires": "1.1.0+3d898dfd55"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+3d898dfd55"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.4.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "vtil-forge-1.20.1",
+          "version": {
+            "requires": "0.6.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+forge"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSChunkLoader-forge-1.20.1-2.0.1.jar",
+          "url": "VSChunkLoader-forge-1.20.1-2.0.1.jar",
+          "size": 1633870,
+          "sha512": "b8891713cbe981b50b5ee44410de32ff5ee2383595a591283fe9f86550dd2942475d783fbeeb146a08eae6a3e4cd6292c2c2899c69795a9c9362a2939dc894ba",
+          "sha256": "70540e87ab522c9ec28593cef6a13f86bbc163ea2d5b84206f19d3088f71422a",
+          "sha1": "8d3b8c41ab0366e55d2f2874fc96ce9706b2cd7a",
+          "md5": "f11d943ad9b82f865fc86d66ff73e33b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "forge",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-forge-1.20.1",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-forge-1.20.1",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VSChunkLoader-forge-1.20.1-2.0.1-sources.jar",
+          "url": "VSChunkLoader-forge-1.20.1-2.0.1-sources.jar",
+          "size": 139657,
+          "sha512": "eb3a2ef8d2c6310d57bd3b65845d192a0161ee72660354aadc5013a01f6ddf56768d442089b25f65a049d7961ffc745c8cd2146f16917dccf91814c21482f2bb",
+          "sha256": "be35d3087f19c935c9991186558f4340445564e2487113102d6c2695b3f423b6",
+          "sha1": "ac18f492ad61444c98498bba5c23c7ae3f80a5f9",
+          "md5": "aa7122814fddab19ae3fcdb74fe7c9a9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "forge",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-forge-1.20.1",
+          "version": "2.0.1"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-forge-1.20.1",
+          "version": "2.0.1"
+        }
+      ]
+    }
+  ]
+}
