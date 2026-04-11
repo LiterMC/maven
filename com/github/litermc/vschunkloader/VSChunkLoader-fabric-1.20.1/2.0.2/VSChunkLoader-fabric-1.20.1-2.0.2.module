@@ -1,0 +1,355 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vschunkloader",
+    "module": "VSChunkLoader-fabric-1.20.1",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-fabric",
+          "version": {
+            "requires": "2.4.11+c1e5b68ef8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VSChunkLoader-fabric-1.20.1-2.0.2.jar",
+          "url": "VSChunkLoader-fabric-1.20.1-2.0.2.jar",
+          "size": 1190486,
+          "sha512": "b2cac9e3ad7a88bb53fe542f4e89683f54089bfc6ff03c3e50f1943a41d88f740133d98ea9dc50850314133492f2dc1bedaa9c058f7ddc4205c726b3b95de944",
+          "sha256": "59dcb1d4e6d71f17fb3b01a89ff18c7c7169e15d2beaa7519246e91b937acb68",
+          "sha1": "9b114161bb5a78dbb84b326daba81a24918f5a52",
+          "md5": "6cdf863066a98290e20c7ea0f08da143"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "fabric",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "module": "VSChunkLoader-common-1.20.1",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "internal",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-fabric",
+          "version": {
+            "requires": "2.4.11+c1e5b68ef8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "vtil-fabric-1.20.1",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config",
+          "version": {
+            "requires": "6.4.90"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+fabric"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSChunkLoader-fabric-1.20.1-2.0.2.jar",
+          "url": "VSChunkLoader-fabric-1.20.1-2.0.2.jar",
+          "size": 1190486,
+          "sha512": "b2cac9e3ad7a88bb53fe542f4e89683f54089bfc6ff03c3e50f1943a41d88f740133d98ea9dc50850314133492f2dc1bedaa9c058f7ddc4205c726b3b95de944",
+          "sha256": "59dcb1d4e6d71f17fb3b01a89ff18c7c7169e15d2beaa7519246e91b937acb68",
+          "sha1": "9b114161bb5a78dbb84b326daba81a24918f5a52",
+          "md5": "6cdf863066a98290e20c7ea0f08da143"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "fabric",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VSChunkLoader-fabric-1.20.1-2.0.2-sources.jar",
+          "url": "VSChunkLoader-fabric-1.20.1-2.0.2-sources.jar",
+          "size": 136665,
+          "sha512": "d6a90aa9b05c072e1083a62572804193325a537a5ed9eee9420ee1c4e77be99256d06c2c9f27842467812fafc856e1aca5b745e746d01de1b98f25965b8a2357",
+          "sha256": "db74707f527dbd271c850b5fefa9f6068ba5409070e7174ff2c4f60dca8a122f",
+          "sha1": "c889c744bb93afe77db8f72b9cdac7bd5e8ebd0f",
+          "md5": "ad052586b4a9447665055206171d9b89"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "VSChunkLoader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader-fabric-1.20.1",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "fabric",
+          "version": "2.0.2"
+        },
+        {
+          "group": "com.github.litermc.vschunkloader",
+          "name": "vschunkloader",
+          "version": "2.0.2"
+        }
+      ]
+    }
+  ]
+}
