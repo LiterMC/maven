@@ -1,0 +1,328 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.litermc.vsplit",
+    "module": "VSplit-forge-1.20.1",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.4.11+c1e5b68ef8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-forge-1.20.1-0.4.0.jar",
+          "url": "VSplit-forge-1.20.1-0.4.0.jar",
+          "size": 1635138,
+          "sha512": "765cd7b769084b071ec1b4ab1887db7b2b225375e3a87163d14687f75260e423b33a9fe76902138298f4409ee8a9b7b9bbd21f0da80d3ae95946c4b5ba4c335d",
+          "sha256": "39a73a0e4f182f73b6651036e65667a4dadcb6a199a1cf2781dc75ea7b3dd6cb",
+          "sha1": "bc722d23381dfabe7548699a5679dd7f5609a471",
+          "md5": "b8ead357213f15565c44710749f7c497"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-forge-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "forge",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-forge-1.20.1",
+          "version": "0.4.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "thedarkcolour",
+          "module": "kotlinforforge",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml-primitives",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "api",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "impl",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "internal",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.valkyrienskies.core",
+          "module": "util",
+          "version": {
+            "requires": "1.1.0+cf208d8b56"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.valkyrienskies",
+          "module": "valkyrienskies-120-forge",
+          "version": {
+            "requires": "2.4.11+c1e5b68ef8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.litermc.vtil",
+          "module": "vtil-forge-1.20.1",
+          "version": {
+            "requires": "0.6.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "11.13.1+forge"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.20.1",
+          "version": {
+            "requires": "6.0.8-289"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.20.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "all"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VSplit-forge-1.20.1-0.4.0.jar",
+          "url": "VSplit-forge-1.20.1-0.4.0.jar",
+          "size": 1635138,
+          "sha512": "765cd7b769084b071ec1b4ab1887db7b2b225375e3a87163d14687f75260e423b33a9fe76902138298f4409ee8a9b7b9bbd21f0da80d3ae95946c4b5ba4c335d",
+          "sha256": "39a73a0e4f182f73b6651036e65667a4dadcb6a199a1cf2781dc75ea7b3dd6cb",
+          "sha1": "bc722d23381dfabe7548699a5679dd7f5609a471",
+          "md5": "b8ead357213f15565c44710749f7c497"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-forge-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "forge",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-forge-1.20.1",
+          "version": "0.4.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VSplit-forge-1.20.1-0.4.0-sources.jar",
+          "url": "VSplit-forge-1.20.1-0.4.0-sources.jar",
+          "size": 149959,
+          "sha512": "0037bab800202e50901b7d8097a6775122b8ff8aacf1d1478838c296f5a1c0273901671769194c37f3e9b2f320e23c8474bdd120da907f92d21cd9622ecdd70f",
+          "sha256": "829968c1ef9d4a4554e18860bb94db076653648f4864a73ae3bd0124e1eea470",
+          "sha1": "44dd11240bf613d9d3c90a9334da5a3cc705bf07",
+          "md5": "bf92a9ffc01af184bcb16e9a26606372"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "vsplit-forge-1.20.1",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "forge",
+          "version": "0.4.0"
+        },
+        {
+          "group": "com.github.litermc.vsplit",
+          "name": "VSplit-forge-1.20.1",
+          "version": "0.4.0"
+        }
+      ]
+    }
+  ]
+}
